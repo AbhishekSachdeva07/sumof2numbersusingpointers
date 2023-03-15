@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int *ab=&a;
+    int *bc=&b;
+    printf("%d",*ab+*bc);
+
+    return 0;
+}
